@@ -25,7 +25,7 @@ function playSound(key) {
 
 keyElements.forEach(function(keyElement) { 
 
-    keyElement.addEventListener("click", function() {
+    keyElement.addEventListener("touchend", function() {
         const key = keyElement.id; 
         playSound(key); 
     });
